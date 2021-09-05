@@ -358,11 +358,11 @@ export default {
   transition: all 0.2s ease-in-out;
 }
 .certificate-preview__show-btn:hover {
-  opacity: 30%;
+  opacity: 60%;
   background-color: #2d3e50;
 }
 .certificate-preview__show-btn span {
-  color: black;
+  color: rgb(233, 232, 230);
   font-size: calc((100vh / 80) + 1em);
   font-weight: 600;
   position: absolute;
