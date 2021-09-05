@@ -70,7 +70,7 @@
               alt="Menjadi Android Developer Expert"
               class="img-certificate"
             />
-            <span>Click to display full size</span>
+            <span class="display-full">Click to display full size</span>
           </a>
         </div>
       </div>
@@ -122,7 +122,7 @@
               alt="Belajar Android Jepack Pro "
               class="img-certificate"
             />
-            <span>Click to display full size</span>
+            <span class="display-full">Click to display full size</span>
           </a>
         </div>
         <div
@@ -226,7 +226,7 @@
               alt="Belajar Android Jepack Pro "
               class="img-certificate"
             />
-            <span>Click to display full size</span>
+            <span class="display-full">Click to display full size</span>
           </a>
         </div>
       </div>
@@ -358,17 +358,17 @@ export default {
   transition: all 0.2s ease-in-out;
 }
 .certificate-preview__show-btn:hover {
-  opacity: 60%;
+  opacity: 40%;
   background-color: #2d3e50;
 }
-.certificate-preview__show-btn span {
-  color: rgb(233, 232, 230);
+.display-full {
+  color: rgb(22, 21, 12);
   font-size: calc((100vh / 80) + 1em);
   font-weight: 600;
   position: absolute;
   opacity: 0;
 }
-.certificate-preview__show-btn span:hover {
+.display-full:hover {
   opacity: 100%;
 }
 .modal .modal-dialog {
